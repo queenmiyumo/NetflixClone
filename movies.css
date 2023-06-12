@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255, 246, 240);
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-evenly ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+   
+}
+.form{
+   
+    background-color:black;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    font-size: medium;
+    border: #000000;
+   
+}
+.Head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    justify-content: space-between;
+   
+}
+.Head ul{
+    flex: 1;
+    text-align: center;
+}
+.Head ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 10px 20px;
+    position: relative;
+}
+.Head ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Btn2{
+    border:0;
+    background: red;
+    color: white;
+    outline: 0;
+    padding: 7px 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Arial;
+}
+.return{
+    border:0;
+    background: red;
+    color: white;
+    outline: 0;
+    padding: 7px 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Arial;
+    text-decoration: none;
+}
